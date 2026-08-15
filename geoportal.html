@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Beliatta - GeoPortal</title>
+    <link rel="stylesheet" href="css\css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Beliatta Spatial Geo-Portal</h1>
+        <p>Interactive Gateway for Village Spatial Data & Maps</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="geoportal.html" class="active">Geo-Portal</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <div class="container">
+
+
+        <div class="map-container" style="margin-bottom: 30px;">
+            <h2>Beliatta Interactive Map</h2>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1015526.8992329923!2d80.7609373979706!3d6.143870825689447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae14bda27b3c7a1%3A0xa9df5ddbe99895e!2sBeliatta!5e0!3m2!1sen!2slk!4v1786773223476!5m2!1sen!2slk"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"></iframe>"
+
+            </iframe>
+
+        </div>
+
+        <hr style="border: 0; border-top: 2px solid #4a00e0; margin: 30px 0;">
+
+
+        <h2>Select Geospatial Layer</h2>
+        <p>Choose a spatial layer from below to explore geographic information of Beliatta:</p>
+
+
+        <div class="map-menu-container">
+            <a href="#map1" class="map-btn">Location Map</a>
+            <a href="#map2" class="map-btn">Divisional Secretarit Boundary Map</a>
+            <a href="#map3" class="map-btn">Population Map 2026</a>
+            <a href="#map4" class="map-btn">Accessibility Map</a>
+            <a href="#map5" class="map-btn">Landmarks Map</a>
+            <a href="#map6" class="map-btn">Open Spaces Map</a>
+            <a href="#map7" class="map-btn">Building Distribution Map</a>
+            <a href="#map8" class="map-btn">Building Height Map</a>
+        </div>
+
+
+
+
+
+        <div id="map1" class="map-view">
+            <h3>Location Map</h3>
+            <iframe class="map-frame" src="docs/Location Map.pdf#toolbar=0&view=FitH"></iframe>
+        </div>
+
+        <div id="map2" class="map-view">
+            <h3>Divisional Secretariat Boundary Map</h3>
+            <iframe class="map-frame" src="docs/Divisional Secretariat Boundary Map.pdf#toolbar=0&view=FitH"></iframe>
+        </div>
+
+        <div id="map3" class="map-view">
+            <h3>Population Map 2026</h3>
+            <iframe class="map-frame" src="docs/Population Map 2026.pdf#toolbar=0&view=FitH"></iframe>
+        </div>
+
+        <div id="map4" class="map-view">
+            <h3>Accessibility Map</h3>
+            <iframe class="map-frame" src="docs/Accessbility Map.pdf#toolbar=0&view=FitH"></iframe>
+        </div>
+
+        <div id="map5" class="map-view">
+            <h3>Landmarks Map</h3>
+            <img class="map-frame" src="img/Landmarks Map.png.png#toolbar=0&view=FitH">
+
+        </div>
+
+        <div id="map6" class="map-view">
+            <h3>Open Spaces Map</h3>
+            <iframe class="map-frame" src="docs/Open Spaces Map.pdf#toolbar=0&view=FitH"></iframe>
+        </div>
+
+        <div id="map7" class="map-view">
+            <h3>Building Distribution Map</h3>
+            <iframe class="map-frame" src="docs/Buildig Distribution Map.pdf#toolbar=0&view=FitH"></iframe>
+        </div>
+
+        <div id="map8" class="map-view">
+            <h3>Building Height Map</h3>
+            <iframe class="map-frame" src="docs/Building Height Map.pdf#toolbar=0&view=FitH"></iframe>
+        </div>
+
+    </div>
+
+
+
+
+    <br><br>
+
+    <div class="download-section">
+        <h2>Geospatial Data Extraction & Downloads</h2>
+        <div class="purple-line"></div>
+
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Data Layer Name</th>
+                    <th>Format</th>
+                    <th>Description</th>
+                    <th>Download Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Beliatta Location Map</strong></td>
+                    <td>PDF</td>
+                    <td>Geographic location map of the Beliatta study area.</td>
+                    <td><a href="docs/Location Map.pdf" download class="download-btn">Download Map</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Divisional Secretariat Boundary Map</strong></td>
+                    <td>PDF / GeoJSON</td>
+                    <td>Administrative boundary lines of Beliatta DS division.</td>
+                    <td><a href="docs/Divisional Secretariat Boundary Map.pdf" download class="download-btn">Download
+                            Map</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Population Distribution Map</strong></td>
+                    <td>PDF</td>
+                    <td>Spatial population density and distribution map.</td>
+                    <td><a href="docs/Population Map 2026.pdf" download class="download-btn">Download Map</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Accessibility & Transport Map</strong></td>
+                    <td>PDF</td>
+                    <td>Road network and transportation accessibility spatial layer.</td>
+                    <td><a href="docs/Accessbility Map.pdf" download class="download-btn">Download Map</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Landmarks Map</strong></td>
+                    <td>PDF</td>
+                    <td>Key public infrastructure and prominent urban landmarks layer.</td>
+                    <td><a href="img/Landmarks Map.png.png" download class="download-btn">Download Map</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Open Spaces Map</strong></td>
+                    <td>PDF</td>
+                    <td>Parks, green spaces, and open recreational area distribution.</td>
+                    <td><a href="docs/Open Spaces Map.pdf" download class="download-btn">Download Map</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Building Distribution Map</strong></td>
+                    <td>PDF</td>
+                    <td>Structural spatial footprints and building distribution pattern.</td>
+                    <td><a href="docs/Buildig Distribution Map.pdf" download class="download-btn">Download Map</a></td>
+                </tr>
+                <tr>
+                    <td><strong>Building Height Map</strong></td>
+                    <td>PDF</td>
+                    <td>Building height profile and vertical spatial footprint layer.</td>
+                    <td><a href="docs/Building Height Map.pdf" download class="download-btn">Download Map</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer class="portal-footer">
+        <p>© 2026 Beliatta Geo-Portal | Department of Town & Country Planning, University of Moratuwa</p>
+    </footer>
+
+</body>
+
+</html>
